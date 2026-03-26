@@ -1,0 +1,8 @@
+global_tokens	local_shape	status	elapsed_s	peak_alloc_mib	peak_reserved_mib	notes
+786432	OOM	oom			record-equivalent global batch, fails on RTX A5000
+655360	OOM	oom			still too large
+524288	(32, 2048)	ok	0.8191	19776	20822	largest fitting single-step probe
+393216	(24, 2048)	ok	0.4545	14875	15662	stable with comfortable headroom
+262144	(16, 2048)	ok	0.3575	9979	10484	stable and conservative
+196608	(12, 2048)	ok	0.2719	7526	7932	stable
+131072	(8, 2048)	ok	0.1850	5084	5344	stable, large headroom
